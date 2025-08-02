@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Global Styles */
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        /* Header Styles */
+        header {
+            background: #35424a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #e8491d;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px 0;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #e8491d;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8491d;
+        }
+
+        /* About Section */
+        #about {
+            padding: 20px;
+        }
+
+        /* Skills Section */
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0 20px;
+        }
+
+        #skills ul li {
+            background: #35424a;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+
+        /* Education Section */
+        #education {
+            padding: 20px;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #e8491d;
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .download-btn:hover {
+            background: #35424a;
+        }
+
+        /* Interests Section */
+        #interests {
+            padding: 20px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project a {
+            color: #e8491d;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Form */
+        #contact {
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .form-group textarea {
+            height: 100px;
+        }
+
+        button {
+            background: #e8491d;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #35424a;
+        }
+
+        /* Footer */
+        footer {
+            background: #35424a;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hi there, I'm Olaniyan Samuel</h1>
+            <p>Software Engineer & Product Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate product designer and aspiring software engineer with a love for creating beautiful and functional interfaces. I enjoy solving problems and building digital experiences that make people's lives easier. My journey in tech started in 2020, during the lockdown when I started graphic design, with curiousity, I evolved into product design and now software engineering.</p>
+            <p>What drives me is the curiousity about the endless possibilities that technology offers to create, innovate, and connect people across the world.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Python</li>
+                
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <div class="education-item">
+                <h3>Undergraduate of Bachelor of Science in Computer Science and Engineering</h3>
+                <p>Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria</p>
+            </div>
+            <div class="education-item">
+                <h3>High School</h3>
+                <p>Foresight Academy, Oyo State, Nigeria.</p>
+            </div>
+            <a href="#" class="download-btn">Download CV</a>
+        </section>
+
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p>I'm particularly excited about web development and user interface, experience design. The intersection of technology and design fascinates me, and I love creating solution that are both beautiful, intuitive and functional.</p>
+            <p>Asides technology, I like the idea of learning something new, watching movies, documentries and I also like travelling</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3><a href="#">Career Navigator Website(careernova)</a></h3>
+                <p>A fully responsive website built with HTML, CSS, and JavaScript. I wasn't the only one who worked on it, I only played my role. Features survey questions and embeded artifcial intelligence to choose a specific career path that resonates with the user's response to the survey questions</p>
+            </div>
+           
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025, Olaniyan Samuel Portfolio </p>
+        </div>
+    </footer>
+</body>
+</html>u
